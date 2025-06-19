@@ -6,7 +6,7 @@ Packer templates for building your Ubuntu 64k kernel images on public clouds.
 
 Best for:
 
-- ARM64 workloads (Graviton)
+- ARM64 workloads 
 
 - Databases (MySQL, PostgreSQL with large buffers)
 
