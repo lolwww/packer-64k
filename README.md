@@ -18,7 +18,7 @@ Prerequisites:
 **For AWS cloud:**
 supported on AWS Graviton	✅	Optimized for 64K
 - have [amazon-ebs packer addon installed](https://developer.hashicorp.com/packer/integrations/hashicorp/amazon) to be able to use amazon-ebs builder
-- modify [packer template](https://github.com/lolwww/packer-64k/blob/main/aws/packer.json) with your AWS creds, original AMI, any other changes if you need 
+- modify [packer template](https://github.com/lolwww/packer-64k/blob/main/aws/packer.json) with your AWS creds, original AMI, any other changes if you need (smaller instance type like t4g.nano should work too) 
 - [setup-64k-kernel.sh](https://github.com/lolwww/packer-64k/blob/main/aws/setup-64k-kernel.sh) file adds canonical-kernel-team ppa and installs 64k aws-specific kernel.
 - resulted AMI is saved as packer-ubuntu-64k-{{timestamp}} into your AWS AMIs
 
