@@ -28,11 +28,11 @@ supported on AWS Graviton	✅	Optimized for 64K
 
 
 **For Azure**:
-supported on Ampere Altra ARM VMs ✅, Limited regions
+supported on Ampere Altra ARM VMs ✅, Limited regions - Template TBD.
 
 
 **For Google Cloud**:
-supported on T2A ARM ✅ 
+supported on T2A ARM ✅ - Template TBD.
 
 
 **For Non-public cloud machines:**
